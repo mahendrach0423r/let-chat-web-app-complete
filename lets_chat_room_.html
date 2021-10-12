@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Let-Chat-Room
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+      <title>LETS CHAT WEB APP</title>
+      
+      <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="background-color: lightskyblue;">
+        <div class="container"> 
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout();" style="float: left;" >Logout</button>
+                <center>
+                    <h1 class="header">	
+                        Kwitter	
+                        <sup>
+                            <img src="logo.png" style="width: 40px; height: 40px;">
+                        </sup>
+                    </h1>
+                    <h3 class="color_white"></h3>
+                    <div class="form-group input_div_room_page">
+                        <label>#Add Room:</label>
+                        <br>
+                        <input class="from-control" id="room_name" type="text" style="width: 60%;" placeholder="Room Name"> 
+                    </div>
+                    <button class="btn btn-success" onclick="addroom();">#Add Room</button>
+                    <h3 class="color_white">#TRENDINGROOMS</h3>
+                     <div id="output"></div>
+                </center>
+            </div>
+
+        <script src="lets_chat-room-.js"></script>
+    </body>
+</html>
